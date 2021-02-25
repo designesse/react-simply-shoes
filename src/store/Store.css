@@ -1,0 +1,10 @@
+.Store {
+  /*background-color: #bbb;*/
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+.title {
+  font-weight: bold;
+  text-transform: capitalize;
+}

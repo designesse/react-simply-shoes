@@ -1,0 +1,25 @@
+.Shoe {
+  position: relative;
+}
+
+.Shoe img {
+}
+
+/*
+.Shoe .info {
+  background: linear-gradient(transparent, white);
+  height: 40%;
+  /*padding: 20px;
+  padding-top: 20%;
+  padding: 20% 15px 0 15px;
+  position: absolute;
+  top: 60%;
+}
+*/
+.Shoe .info {
+  background: linear-gradient(transparent, white);
+  padding: 5%;
+  padding-top: 30%;
+  position: absolute;
+  bottom: 0;
+}

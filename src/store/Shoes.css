@@ -1,0 +1,20 @@
+ul.Shoes {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul.Shoes li {
+  width: 33%;
+  margin-bottom: 0.5%;
+}
+
+ul.Shoes li:nth-child(3n + 2),
+ul.Shoes li:nth-child(3n + 3) {
+  margin-left: 0.5%;
+}
+
+ul.Shoes li > * {
+  width: 100%;
+}
